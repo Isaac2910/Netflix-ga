@@ -1,0 +1,16 @@
+.pg2 {
+    width: 100%;
+    height: 468px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    
+}
+.pg2__cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+}

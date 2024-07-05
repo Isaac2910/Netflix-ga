@@ -1,0 +1,18 @@
+.pg4 {
+    width: 100%;
+    height: 468px;
+    background-color: rgb(94, 89, 89);
+    display: flex;
+    justify-content: center;
+
+}
+
+.pg4__cont {
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+   
+   
+    text-align: center;
+    border: 2px solid blue;
+}
