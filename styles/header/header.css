@@ -1,10 +1,11 @@
 .header{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     background-image: url(/assets/img/img__backr.svg);
-    border-bottom: 10px solid;
+    border-bottom: 10px rgb(63, 59, 59) solid;
 }
 
 
@@ -20,26 +21,55 @@
 .nav__logo {
     width: 100px;
     height: 75px;
+    
 }
 .nav__but {
+    height: 32px;
+    width: 72px;
     background-color: brown;
-    border-radius: 5pc;
+    border-radius: 5px;
    
 }
 .contener {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 16px;
+    margin-top: 10%;
 }
 .contener__text {
     text-align: center;
+    gap: 16px;
+    padding: 10px;
 }
 .contener__form {
+    height: 100%;
+    width: 50%;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 20%;
+    gap: 16px;
+}
+
+.entre {
+    height: 100%;
+    width: 60%;
+    background-color:white;
+    border:  1px  solid black;
+    opacity: 50%;
+    border-radius: 5px;
+    color: white;
+
+}
+.but-2 {
+  
+    width: 30%;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
 }

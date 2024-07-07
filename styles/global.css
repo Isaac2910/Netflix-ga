@@ -1,7 +1,27 @@
-@import url(/styles/header/header.css);
-@import url(/styles/sect1/section1.css);
-@import url(/styles/sect2/section2.css);
-@import url(/styles/sect3/section3.css);
-@import url(/styles/sect4/section4.css);
-@import url(/styles/sect5/section5.css);
 
+@import url(./header/header.css);
+@import url(./sect1/section1.css);
+@import url(./sect2/section2.css);
+@import url(./sect3/section3.css);
+@import url(./sect4/section4.css);
+@import url(./sect5/section5.css);
+@import url(./footer/footer.css);
+@import url(./responsive.css);
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: 700px 685px 685px 404px 685px 927px;
+    width: 100%;
+    
+    background-color: black;
+    height: 4430px; 
+
+
+}

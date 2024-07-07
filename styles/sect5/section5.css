@@ -1,5 +1,37 @@
 .pgbuts {
-    width: 100.%;
-    height: 468px;
-    background-color: aquamarine;
+   
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px rgb(63, 59, 59) solid;
+    flex: 1;
 }
+    .pgbuts__cont {
+        width: 100%;
+        max-width: 1442px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 16px;
+        gap: 10px;
+        border: 2px solid rgb(58, 41, 104);
+    }
+        .pgbuts__buts {
+            width: 50%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+            .buts__but {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(82, 70, 70);
+            }
